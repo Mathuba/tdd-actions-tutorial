@@ -12,10 +12,10 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
-        python-version: 3.8
+        python-version: 3.6
     - name: Install dependencies with pipenv
       run: |
-        pip install pipenv
+        pip install pipenv==2018.10.13
         pipenv install --deploy --dev
         pipenv install flake8
         pipenv install isort
