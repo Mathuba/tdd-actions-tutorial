@@ -23,5 +23,5 @@ jobs:
         pipenv install pytest
 
     - run: pipenv run isort --recursive --diff
-    - run: pipenv run pytest --cov --cov-fail-under=100
+    - run: pipenv run pytest
     - run: pipenv run pipenv lock
