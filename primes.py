@@ -1,3 +1,4 @@
 def is_prime(num):
-	if num == 1:
+	# Prime numbers must be greater than 1
+	if num < 2:
 		return False
