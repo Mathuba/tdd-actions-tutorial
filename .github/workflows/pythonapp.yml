@@ -26,3 +26,4 @@ jobs:
     - run: pipenv run flake8
     - run: pipenv run mypy
     - run: pipenv run pytest --cov --cov-fail-under=100
+    - run: pipenv run pipenv lock

@@ -10,7 +10,6 @@ pytest = "*"
 requests = "*"
 flake8 = "*"
 isort = "*"
-black = "*"
 
 [requires]
 python_version = "3.6"
